@@ -1,0 +1,37 @@
+Sno = int(input('enter sno:))
+sname = input('enter sname:')
+S1 = int(input('a1 marks:'))
+S2 = int(input('a2 marks:'))
+S3 = int(input('a3 marks:'))
+S4 = int(input('a4 marks:'))
+S5 = int(input('a5 marks:'))
+S6 = int(input('a6 marks:'))
+total = S1+S2+S3+S4+S5+S6
+avg = total/6
+if avg >= 95:
+print("O-grade")
+elif avg >= 85
+print("A-grade")
+elif avg >= 72
+print("B-grade")
+elif avg >= 60
+print("C-grade")
+elif avg >= 50
+print("D-grade")
+elif avg >= 40
+print("pass")
+else
+print("fail")
+
+output:
+enter sno:7
+enter sname:rani
+a1 marks:75
+a2 marks:80
+a3 marks:66
+a4 marks:73
+a5 marks:55
+a6 marks:68
+B-grade
+
+
